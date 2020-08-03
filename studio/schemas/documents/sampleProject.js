@@ -68,7 +68,12 @@ export default {
       title: 'Related projects',
       type: 'array',
       of: [{type: 'reference', to: {type: 'sampleProject'}}]
-    }
+    },
+    {
+      name: 'secondImage',
+      title: 'Main image',
+      type: 'figure'
+    },
   ],
   preview: {
     select: {
